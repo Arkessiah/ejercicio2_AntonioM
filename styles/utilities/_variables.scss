@@ -1,6 +1,5 @@
  
    html {
-       
        font-family: "Playfair Display" ;
        font-weight: lighter;
        margin:0px;
@@ -11,29 +10,24 @@
     %bordes{
         padding:5px;
         margin:1px;
-        
         & before{
             list-style: round;
             list-style-position: inside;
-        }
-            
+        }  
     }
     
 .boxMain{
     margin:auto;
     margin-top: 10px;
     width: 610px;
-    height: 800px;
-    border:solid;
+    height:550px;
     padding:10px;
-    background-color: rgb(255, 0, 128);
 }
 
 .boxLogo{
     margin:auto;
     width: 200px;
     height: 200px;
-    background-color: blue;
     float:left;
 }
 
@@ -41,7 +35,6 @@
     margin: 0 0 0 10px;
     width: 400px;
     height: 120px;
-    background-color: rgb(0, 255, 60);
     float:left;
     font-style:lighter;
 }
@@ -56,7 +49,6 @@
     margin-top: 0px;
     width: 400px;
     height: 150px;
-    background-color: rgb(228, 222, 235);
     font-style: bold;
     font-size: 14px;
 
@@ -64,28 +56,11 @@
   
 .list{
     font-size: x-small;
-    margin-top: 10px;
+    margin: 0px 0px 10px 0px;
     width: 300px;
-    
+    display: flex;
 }
 
-.lista1{
-    margin:auto;
-    display:flex;
-    -ms-flex-align: center;
-    flex-direction: column;
-    -ms-flex-item-align: start;
-    @extend %bordes;
-}
-
-.lista2{
-    margin:auto;
-    display:flex;
-    -ms-flex-align: center;
-    flex-direction: row;
-    -ms-flex-item-align: end;
-    @extend %bordes;
-}
 ul {
     list-style-type:circle;
     list-style: url(green-square.png);
@@ -98,24 +73,27 @@ li p{
     color:black;
 }
 
+.buttonZone{
+    font-size: x-small;
+    margin: 0px 10px 10px 0px;
+    width: 280px;
+    display: flex;
+}
 
+.buttonSummit{
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    padding:6px 15px;
+}
 
-/**
-justify-content: left;
-    flex-wrap:wrap;
-    flex-direction: column;
-    padding: 20%;
-    -ms-flex-align: center;
-    -ms-flex-item-align: start;
-    padding: 0;
-    border: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
-    vertical-align: baseline;
-    line-height: 24px;
-    clear: both;
-    position:relative;
-    overflow: auto;
-**/
+.checkNoEmail{
+    margin-top: 20px;
+}
+
+footer{
+    font-size: x-small;
+    margin: 0px;
+    width: 250px;
+    display: flex;
+}
