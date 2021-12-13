@@ -1,0 +1,125 @@
+html {
+  font-family: "Playfair Display";
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+}
+
+/** Herencia **/
+.lista1, .lista2 {
+  padding: 5px;
+  margin: 1px;
+}
+
+.lista1 before, .lista2 before {
+  list-style: round;
+  list-style-position: inside;
+}
+
+.boxMain {
+  margin: auto;
+  margin-top: 10px;
+  width: 610px;
+  height: 800px;
+  border: solid;
+  padding: 10px;
+  background-color: #ff0080;
+}
+
+.boxLogo {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: left;
+}
+
+.boxForm {
+  margin: 0 0 0 10px;
+  width: 400px;
+  height: 120px;
+  background-color: #00ff3c;
+  float: left;
+  font-style: lighter;
+}
+
+.cabecera {
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: small;
+}
+
+.formulario {
+  margin-top: 0px;
+  width: 400px;
+  height: 150px;
+  background-color: #e4deeb;
+  font-style: bold;
+  font-size: 14px;
+}
+
+.list {
+  font-size: x-small;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.lista1 {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: start;
+}
+
+.lista2 {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: end;
+}
+
+ul {
+  list-style-type: circle;
+  list-style: url(green-square.png);
+}
+
+li {
+  color: darkgreen;
+}
+
+li p {
+  color: black;
+}
+
+/**
+justify-content: left;
+    flex-wrap:wrap;
+    flex-direction: column;
+    padding: 20%;
+    -ms-flex-align: center;
+    -ms-flex-item-align: start;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    line-height: 24px;
+    clear: both;
+    position:relative;
+    overflow: auto;
+**/
+/*# sourceMappingURL=main.css.map */

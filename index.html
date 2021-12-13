@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailchimp</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Formulario Mailchimp-->
+    <div class="boxMain">
+      <div class="boxLogo">
+        <img src="./images/logo.png" alt="logo mailchimp" height="200px">
+      </div>
+      <div class="boxForm">
+        <div class="cabecera">
+          <h1>Welcome to Mailchimp</h1>
+            <p>
+              Find your people. Engage your customers. Build your brand. Do it all
+              with Mailchimp's Platform. Already have account?
+              <a href="./login.html">Log in</a>
+            </p>
+        </div>
+        <div class="formulario">
+          <form action="/register" method="post">
+            <div class="formEmail">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="user_email"
+                placeholder=""
+                minlength="6"
+                maxlength="50"
+                size="50%"
+                require
+              />
+            </div>
+            <div class="formUsername">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                name="username"
+                id="user_name"
+                placeholder=""
+                minlength="5"
+                maxlength="40"
+                size="50%"
+                required
+              />
+            </div>
+            <div class="formPwd">
+              <label for="pwd">Password</label>
+              <!--Meter aqui el poder visualizar lo que escribes en el password-->
+    
+              <input
+                type="pwd"
+                name="password"
+                id="user_pwd"
+                placeholder=""
+                minlength="8"
+                maxlength="10"
+                size="50%"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <div class="list">
+          <ul type="round" class="lista1">
+            <li><p>One lowercase character</p></li>
+            <li><p>One uppercase character</p></li>
+            <li><p>One number</p></li>
+          </ul>
+          <ul type="round" class="lista2">
+            <li><p>One special character</p></li>
+            <li><p>8 characters minimun</p></li>
+          </ul>
+        </div>
+        <div class="buttonZone">
+          <button type="summit">Sign Up</button>
+          <input type="checkbox" name="noemail" id="noemail">
+          <p><h6>I don't want to receive emails about new Mailchimp products, best practices, or spcecial offers.</h6></p>
+        </div>  
+        <footer>
+          <p><h6>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="./terms.html">Terms of Use</a> and <a href="./privacy.html">Privacy Policy</a>.</h6></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
